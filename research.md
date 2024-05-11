@@ -1,16 +1,10 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Research
+subtitle: What are the main questions that I'd like to answer? 
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+# Research Directions
+- Bias generation and amplification in ML systems. What is behind biases in an ML system? What is the impact of our design choices?
+- Learning differences in biological and artificial neural networks. Curriculum learning, continual learning, transfer learning, same concept but completely different results in animals and machines, why?
+- Optimisation in rough landscapes. Connecting dynamics and landscape properties in optimisation.
