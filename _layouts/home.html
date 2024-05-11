@@ -68,14 +68,14 @@ layout: page
           {% if site.feed_show_excerpt == false %}
             {% if thumbnail != "" %}
             <div class="post-image post-image-normal">
-              <a href="{{ publication.article_link | absolute_url }}" aria-label="Thumbnail">
+              <a href="{{ publication.article_link | absolute_url }}" aria-label="Thumbnail" target="_blank">
                 <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
               </a>
             </div>
             {% endif %}
           {% endif %}
           
-          <a href="{{ publication.article_link }}">
+          <a href="{{ publication.article_link }}" target="_blank">
             <h2 class="post-title">{{ publication.title }}</h2
           </a>
 
@@ -89,7 +89,7 @@ layout: page
 
           {% if thumbnail != "" %}
             <div class="post-image post-image-small">
-              <a href="{{ publication.article_link | absolute_url }}" aria-label="Thumbnail">
+              <a href="{{ publication.article_link | absolute_url }}" aria-label="Thumbnail" target="_blank">
                 <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
               </a>
             </div>
@@ -98,7 +98,7 @@ layout: page
           {% unless site.feed_show_excerpt == false %}
             {% if thumbnail != "" %}
               <div class="post-image post-image-short">
-                <a href="{{ publication.article_link | absolute_url }}" aria-label="Thumbnail">
+                <a href="{{ publication.article_link | absolute_url }}" aria-label="Thumbnail" target="_blank">
                   <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
                 </a>
               </div>
@@ -108,7 +108,7 @@ layout: page
               {% assign abstract_length = publication.abstract_length_home | default: 100 %}
               {{ publication.abstract | strip_html | truncatewords: abstract_length }}
               {% assign abstract_word_count = publication.abstract | number_of_words %}
-              <a href="{{ publication.article_link | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
+              <a href="{{ publication.article_link | absolute_url }}" class="post-read-more" target="_blank">[Read&nbsp;Article]</a>
             </div>
           {% endunless %}
             
