@@ -27,7 +27,7 @@ subtitle: Our most recent publications!
         {% if site.feed_show_excerpt == false %}
           {% if thumbnail != "" %}
           <div class="post-image post-image-normal">
-            <a href="{{ publication.article_link | absolute_url }}" aria-label="Thumbnail">
+            <a href="{{ publication.article_link | absolute_url }}" aria-label="Thumbnail" target="_blank">
               <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
             </a>
           </div>
@@ -48,7 +48,7 @@ subtitle: Our most recent publications!
 
         {% if thumbnail != "" %}
           <div class="post-image post-image-small">
-            <a href="{{ publication.article_link | absolute_url }}" aria-label="Thumbnail">
+            <a href="{{ publication.article_link | absolute_url }}" aria-label="Thumbnail" target="_blank">
               <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
             </a>
           </div>
@@ -57,7 +57,7 @@ subtitle: Our most recent publications!
         {% unless site.feed_show_excerpt == false %}
           {% if thumbnail != "" %}
             <div class="post-image post-image-short">
-              <a href="{{ publication.article_link | absolute_url }}" aria-label="Thumbnail">
+              <a href="{{ publication.article_link | absolute_url }}" aria-label="Thumbnail" target="_blank">
                 <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
               </a>
             </div>
@@ -65,7 +65,7 @@ subtitle: Our most recent publications!
     
           <div class="post-entry">
             {{ publication.abstract | strip_html }}
-            <a href="{{ publication.article_link | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
+            <a href="{{ publication.article_link | absolute_url }}" class="post-read-more" target="_blank">[Read&nbsp;Article]</a>
           </div>
         {% endunless %}
             
