@@ -789,7 +789,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 /* --- Pagination --- */
 
 .container-md {
-  max-width: 1500px;
+  max-width: 1500px !important;
 }
 
 .pagination {
