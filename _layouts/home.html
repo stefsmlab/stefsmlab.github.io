@@ -28,11 +28,15 @@ layout: page
 <div>
   <h1 style="padding-bottom: 20px;">Latest News</h1>
   {% assign news = site.news %}
-  {% for news_tmp in news reversed limit:2 %}
-    <div style="overflow: hidden;">
-      <div style="width:110px; float: left; text-align: right;"><span style="padding: 1px; background-color: #edf1da;">{{ news_tmp.when }}</span></div>
-      <div style="width:calc( 100% - 110px - 20px / 2 * 1.2 ); float: right;">{{ news_tmp.what }}</div>
-    </div>
+  {% assign count = 0 %}
+  {% for news_tmp in news reversed %}
+    {% if count < 2 %}
+      {% assign count = count | plus: 1 %}
+      <div style="overflow: hidden;">
+        <div style="width:110px; float: left; text-align: right;"><span style="padding: 1px; background-color: #edf1da;">{{ news_tmp.when }}</span></div>
+        <div style="width:calc( 100% - 110px - 20px / 2 * 1.2 ); float: right;">{{ news_tmp.what }}</div>
+      </div>
+    {% endif %}
   {% endfor %}
 </div>
 
