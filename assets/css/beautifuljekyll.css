@@ -788,6 +788,10 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 
 /* --- Pagination --- */
 
+.container-md {
+  max-width: 1500px;
+}
+
 .pagination {
   margin: 0.625rem 0 0;
   justify-content: space-between;
