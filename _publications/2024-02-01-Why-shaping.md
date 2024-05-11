@@ -7,5 +7,6 @@ abstract: Diverse studies in systems neuroscience begin with extended periods of
 thumbnail-img:
 cover-img:
 url: https://arxiv.org/abs/2402.18361
+journal: Accepted to ICML 2024
 abstract_length_home: 100
 ---
