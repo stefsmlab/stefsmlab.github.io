@@ -27,6 +27,10 @@ layout: page
 <!-- Load recent news from posts, probably needs to create equivalent news folder moving forward -->
 <div>
   <h1>Latest News</h1>
+  {% assign news = site.news %}
+  {% for news_tmp in news %}
+    {{ news_tmp.date }}
+  {% endfor %}
 </div>
 
 <!-- Load recent publications from posts, probably needs to create equivalent publications folder moving forward -->
