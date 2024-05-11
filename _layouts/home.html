@@ -30,8 +30,8 @@ layout: page
   {% assign news = site.news %}
   {% for news_tmp in news %}
     <div>
-      <div style="width:110px"><span>{{ news_tmp.when }}</span></div>
-      <div style="width:calc( 100% - 110px - 20px / 2 * 1.2 )">{{ news_tmp.what }}</div>
+      <div style="width:110px; float: left; text-align: right;"><span style="padding: 4px; border:2px; border-style: solid; background-color: #edf1da;">{{ news_tmp.when }}</span></div>
+      <div style="width:calc( 100% - 110px - 20px / 2 * 1.2 ); float: right;">{{ news_tmp.what }}</div>
     </div>
   {% endfor %}
 </div>
