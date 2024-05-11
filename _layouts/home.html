@@ -29,7 +29,8 @@ layout: page
   <h1>Latest News</h1>
   {% assign news = site.news %}
   {% for news_tmp in news %}
-    {{ news_tmp.date }}
+    <div>{{ news_tmp.when }}</div>
+    <div>{{ news_tmp.what }}</div>
   {% endfor %}
 </div>
 
