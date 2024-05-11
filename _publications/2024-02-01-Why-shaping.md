@@ -9,4 +9,5 @@ cover-img:
 article_link: https://arxiv.org/abs/2402.18361
 journal: Accepted to ICML 2024
 abstract_length_home: 100
+tags: [compositionality, curriculum]
 ---
