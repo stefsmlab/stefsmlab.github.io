@@ -7,5 +7,5 @@ abstract: Diverse studies in systems neuroscience begin with extended periods of
 thumbnail-img:
 cover-img:
 url: https://arxiv.org/abs/2402.18361
-excerpt_length: 100
+abstract_length_home: 100
 ---
