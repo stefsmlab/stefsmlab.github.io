@@ -101,7 +101,12 @@ layout: page
             {% endif %}
       
             <div class="post-entry">
-              {{ publication.abstract }}\n
+              {% assign abstract_length = publication.abstract_length_home | default: 100 %}
+              {{ publication.abstract | strip_html | truncatewords: abstract_length }}
+              {% assign abstract_word_count = publication.abstract | number_of_words %}
+              {% if abstract_word_count > abstract_length %}
+                ...
+              {% endif %}
               <a href="{{ publication.url | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
             </div>
           {% endunless %}
