@@ -286,6 +286,7 @@ defaults:
       
 collections:
   news:
+  publications:
 
 # Exclude these files from production site
 exclude:
