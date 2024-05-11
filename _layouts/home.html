@@ -83,6 +83,10 @@ layout: page
             <span><strong>{{ publication.authors }}</strong></span>
           {% endif %}
 
+          {% if publication.journal %}
+            <p class="post-meta">{{ publication.journal }}</p>
+          {% end if %}
+
           {% if thumbnail != "" %}
             <div class="post-image post-image-small">
               <a href="{{ publication.url | absolute_url }}" aria-label="Thumbnail">
