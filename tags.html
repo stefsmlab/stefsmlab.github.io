@@ -20,7 +20,7 @@ title: 'Tag Index'
   {% if currentTag == previousTag %}
     {% assign counter = counter | plus: 1 %}
   {% else %}
-    <a href="#{{- currentTag -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- currentTag -}}&nbsp;({{counter}})</a>
+    <a href="#{{- previousTag -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- previousTag -}}&nbsp;({{counter}})</a>
     {% assign counter = 1 %}
   {% endif %}
 
