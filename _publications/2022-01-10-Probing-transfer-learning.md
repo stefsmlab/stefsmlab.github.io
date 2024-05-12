@@ -7,7 +7,7 @@ abstract: Transfer learning can significantly improve the sample efficiency of n
 thumbnail-img:
 cover-img:
 article_link: https://iopscience.iop.org/article/10.1088/2632-2153/ac4f3f/meta
-journal: Machine Learning: Science and Technology
+journal: Machine Learning&colon; Science and Technology
 abstract_length_home: 100
 tags: [transfer learning]
 ---
