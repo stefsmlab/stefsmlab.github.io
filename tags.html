@@ -33,17 +33,22 @@ title: 'Tag Index'
 {% endfor %}
 
 <div id="full-tags-list">
-{%- for tag in tags_list -%}
+{%- for currentTag in tags -%}
     <h2 id="{{- tag -}}" class="linked-section">
         <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
+        &nbsp;{{- currentTag -}}
     </h2>
     <div class="post-list">
-        {%- for post in site.tags[tag] -%}
+        {% for publication in site.publications %}
             <div class="tag-entry">
-                <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
-                <div class="entry-date">
-                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
+                <a href="{{ publication.url | relative_url }}">{{- publication.title | strip_html -}}</a>
+                <div class="entry-date">        
+                  {% if publication.authors %}
+                    <span><strong>{{ publication.authors }}</strong></span>
+                  {% endif %}
+                  {% if publication.journal %}
+                    <p class="post-meta">{{ publication.journal }}</p>
+                  {% endif %}
                 </div>
             </div>
         {%- endfor -%}
