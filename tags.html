@@ -3,6 +3,17 @@ layout: page
 title: 'Tag Index'
 ---
 
+{% for tag in site.tags %}
+{% for tag in publications.tags %}
+  <h2>{{ tag[0] }}</h2>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+{% endfor %}
+
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 
 {%- capture site_tags -%}
