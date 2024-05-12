@@ -4,9 +4,9 @@ title: 'Tag Index'
 ---
 {% assign publications = site.publications %}
   {% for publication in publications reversed %}
-    {% for tags in publication.tags %}
-      <p>{{ tags }}</p>
-    {% endfor %}
+    {% if publication.tags %}
+      <p>{{ publication.tags }}</p>
+    {% endif %}
   {% endfor %}
 {% endfor %}
 
