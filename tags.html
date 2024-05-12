@@ -3,6 +3,36 @@ layout: page
 title: 'Tag Index'
 ---
 
+{% comment %}Thanks to https://stackoverflow.com/questions/36479756/counting-collection-tags-in-jekyll{% endcomment %}
+{% comment %}map, flatten and sort{% endcomment %}
+{% assign tags =  site.publications | map: 'tags' | join: ','  | split: ',' | sort %}
+{% assign previousTag = "" %}
+{% assign counter = 0 %}
+
+{% for currentTag in tags %}
+
+  {% comment %}first loop : initializing previousTag{% endcomment %}
+  {% if previousTag == "" %}
+    {% assign previousTag = currentTag %}
+  {% endif %}
+
+  {% if currentTag == previousTag %}
+    {% assign counter = counter | plus: 1 %}
+  {% else %}
+    {{ previousTag }} ({{ counter }})
+    {% assign counter = 1 %}
+  {% endif %}
+
+  {% comment %}last loop : flushing what's left to print{% endcomment %}
+  {% if forloop.last %}
+    {{ currentTag }} ({{ counter }})
+  {% endif %}
+
+  {% assign previousTag = currentTag %}
+
+{% endfor %}
+
+
 <div>
   
   {% assign publications = site.publications %}
