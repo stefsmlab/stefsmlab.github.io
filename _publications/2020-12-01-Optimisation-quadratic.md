@@ -9,5 +9,5 @@ cover-img:
 article_link: https://proceedings.neurips.cc/paper/2020/hash/9b8b50fb590c590ffbf1295ce92258dc-Abstract.html
 journal: NeurIPS 2020
 abstract_length_home: 100
-tags: [continual learning]
+tags: [optimisation,landscape]
 ---
