@@ -8,9 +8,9 @@ title: 'Tag Index'
 {% comment %} Thanks to https://stackoverflow.com/questions/36479756/counting-collection-tags-in-jekyll {% endcomment %}
 {% comment %} map, flatten and sort {% endcomment %}
 {% assign tags =  site.publications | map: 'tags' | join: ','  | split: ',' | sort %}
+
 {% assign previousTag = "" %}
 {% assign counter = 0 %}
-
 {% for currentTag in tags %}
   {% comment %} first loop : initializing previousTag {% endcomment %}
   {% if previousTag == "" %}
@@ -32,6 +32,7 @@ title: 'Tag Index'
   {% assign previousTag = currentTag %}
 {% endfor %}
 
+{% assign previousTag = "" %}
 {% assign counter = 0 %}
 <div id="full-tags-list">
 {%- for currentTag in tags -%}
