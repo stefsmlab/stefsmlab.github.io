@@ -40,17 +40,19 @@ title: 'Tag Index'
     </h2>
     <div class="post-list">
         {% for publication in site.publications %}
-            <div class="tag-entry">
-                <a href="{{ publication.url | relative_url }}">{{- publication.title | strip_html -}}</a>
-                <div class="entry-date">        
-                  {% if publication.authors %}
-                    <span><strong>{{ publication.authors }}</strong></span>
-                  {% endif %}
-                  {% if publication.journal %}
-                    <p class="post-meta">{{ publication.journal }}</p>
-                  {% endif %}
-                </div>
-            </div>
+            {% if publication.tags contains currentTag %}
+              <div class="tag-entry">
+                  <a href="{{ publication.url | relative_url }}">{{- publication.title | strip_html -}}</a>
+                  <div class="entry-date">        
+                    {% if publication.authors %}
+                      <span><strong>{{ publication.authors }}</strong></span>
+                    {% endif %}
+                    {% if publication.journal %}
+                      <p class="post-meta" style="margin-top: 0;">{{ publication.journal }}</p>
+                    {% endif %}
+                  </div>
+              </div>
+          {% endif %}
         {%- endfor -%}
     </div>
 {%- endfor -%}
