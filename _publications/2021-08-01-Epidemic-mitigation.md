@@ -7,7 +7,7 @@ abstract: Contact tracing is an essential tool to mitigate the impact of a pande
 thumbnail-img:
 cover-img:
 article_link: https://www.pnas.org/doi/abs/10.1073/pnas.2106548118
-journal:
+journal: PNAS
 abstract_length_home: 100
 tags: [epidemic mitigation]
 ---
