@@ -9,5 +9,5 @@ cover-img:
 article_link: https://proceedings.mlr.press/v97/mannelli19a.html
 journal: ICML 2019
 abstract_length_home: 100
-tags: [optimisation,landscape,review]
+tags: [optimisation,landscape]
 ---
