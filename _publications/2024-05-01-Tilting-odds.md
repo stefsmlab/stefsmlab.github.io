@@ -7,7 +7,7 @@ abstract: A wide range of empirical and theoretical works have shown that overpa
 thumbnail-img: https://stefsmlab.github.io/assets/img/publications/2024-05-01-Tilting-odds-thumbnail.png
 cover-img: https://stefsmlab.github.io/assets/img/publications/2024-05-01-Tilting-odds-cover.png
 article_link: #
-journal: accepted to ICML 2024
+journal: Accepted to ICML 2024
 abstract_length_home: 100
 tags: [curriculum learning,lottery ticket hypothesis]
 ---
