@@ -1,4 +1,4 @@
-![image](https://github.com/stefsmlab/stefsmlab.github.io/assets/24281223/539e02cc-f838-40cc-b38f-fe51d681cc17)---
+---
 layout: publication
 when: May 2022
 title: Bias-inducing geometries&colon; an exactly solvable data model with fairness implications
