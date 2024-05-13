@@ -92,8 +92,8 @@ layout: page
   {% assign count = 0 %}
   <ul class="posts-list list-unstyled" role="list">
     {% for publication in publications reversed %}
-      <li class="post-preview"><article>
-        {% if count < 5 %}
+      {% if count < 5 %}
+        <li class="post-preview"><article>
           {% assign count = count | plus: 1 %}
             
           {%- capture thumbnail -%}
@@ -156,8 +156,8 @@ layout: page
             </div>
           {% endunless %}
             
-        {% endif %}
-      </article></li>
+        </article></li>
+      {% endif %}
     {% endfor %}
   </u>
   <p>Explore other <a href="https://stefsmlab.github.io/publications/">publications here</a>.</p>
