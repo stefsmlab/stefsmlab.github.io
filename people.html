@@ -4,6 +4,14 @@ title: About me
 subtitle:
 ---
 
+{% for person in site.people %}
+  <h2>
+    <a href="{{ person.url }}">
+      {{ person.name }}
+    </a>
+  </h2>
+{% endfor %}
+
 <div class="text-center">
   <img src="https://stefsmlab.github.io/assets/img/people/stef.jpg" style="width: 400px; border-radius: 15%;"/>
 </div>
