@@ -658,10 +658,6 @@ footer .footer-custom-content {
   margin: 0 0 0.9375rem 1.5625rem;
 }
 
-#full-tags-list .tag-entry a {
-  font-size: 1.25rem;
-}
-
 #full-tags-list .tag-entry .entry-date {
   color: var(--mid-col);
   font-style: italic;
