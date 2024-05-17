@@ -284,8 +284,8 @@ defaults:
 collections:
   news:
   publications:
-    output: true
   people:
+    output: true
 
 # Exclude these files from production site
 exclude:
