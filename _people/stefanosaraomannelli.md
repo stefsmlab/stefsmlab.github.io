@@ -1,6 +1,8 @@
 ---
-short_name: Stefano
+layout: person
+title: Stefano Sarao Mannelli
 name: Stefano Sarao Mannelli
+short_name: Stefano
 position: Senior Research Fellow
 position_type: postdoc
 alumnus: false
