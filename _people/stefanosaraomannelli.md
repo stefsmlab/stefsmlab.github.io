@@ -10,3 +10,55 @@ googlescholar: https://scholar.google.it/citations?user=Kq272_MAAAAJ&hl=en&oi=ao
 join_date: Sept 2024
 research_interest: I am Stefano Sarao Mannelli, a <b>senior reseach fellow</b> working with Andrew Saxe at Gatsby and SWC (University College London). Prior to my current position, I held a postdoctoral position at the University of Oxford (still with Andrew Saxe) and obtained a Ph.D. in Physics applied to Machine Learning at the University of Paris-Saclay supervised by Lenka Zdeborova. My research focuses on analysing machine learning problems using a model-based approach, where the complexity of the problem is reduced to obtain a parsimonious solvable model that still captures the phenomenon of interest. In my previous works, I applied several variations of this approach to study problems in learning, such as transfer learning, continual learning, and curriculum learning.
 ---
+
+<div class="text-center">
+  <img src="https://stefsmlab.github.io/assets/img/people/stef.jpg" style="width: 400px; border-radius: 15%;"/>
+</div>
+
+<p>
+  I am Stefano Sarao Mannelli, a <b>senior reseach fellow</b> working with Andrew Saxe at Gatsby and SWC (University College London). 
+  Prior to my current position, I held a postdoctoral position at the University of Oxford (still with Andrew Saxe) and obtained a Ph.D. in Physics applied to Machine Learning at the University of Paris-Saclay supervised by Lenka Zdeborova. 
+  My research focuses on analysing machine learning problems using a model-based approach, where the complexity of the problem is reduced to obtain a parsimonious solvable model that still captures the phenomenon of interest. 
+  In my previous works, I applied several variations of this approach to study problems in learning, such as transfer learning, continual learning, and curriculum learning.
+</p>
+
+<h3>Contacts and information</h3>
+
+<ul class="list-inline text-left footer-links">
+  <li class="list-inline-item">
+    <a href="mailto:s.saraomannelli@ucl.ac.uk" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="https://twitter.com/stefsmlab" title="Twitter" target="_blank">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="https://scholar.google.com/citations?user=Kq272_MAAAAJ" title="Google Scholar" target="_blank">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Google Scholar</span>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="https://stefsmlab.github.io/assets/docs/people/stef-CV-2024-01.pdf" title="Curriculum Vitae" target="_blank">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fa fa-portrait fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Curriculum Vitae</span>
+    </a>
+  </li>
+</ul>
