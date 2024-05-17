@@ -81,7 +81,7 @@ subtitle: page.position
 <h3>Publications</h3>
 
 <div class="post-list">
-    {% for publication in site.publications %}
+    {% for publication in site.publications reversed %}
         {% if publication.authors contains page.name %}
           <div class="tag-entry">
               <a href="{{ publication.url | relative_url }}">{{- publication.title | strip_html -}}</a>
