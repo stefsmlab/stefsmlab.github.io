@@ -4,17 +4,23 @@ title: page.name
 subtitle: page.position
 ---
 
+<!-- --------------------- IMAGE ---------------------  -->
+
 {% if page.image %}
   <div class="text-center">
     <img src="https://stefsmlab.github.io/assets/img/people/{{ page.image }}" style="width: 400px; border-radius: 15%;"/>
   </div>
 {% endif %}
 
+<!-- --------------------- RESEARCH INTERESTS ---------------------  -->
+
 {% if page.research_interest %} 
   <p>
     {{ page.research_interest }}
   </p>
 {% endif %}
+
+<!-- --------------------- CONTACTS AND INFORMATION ---------------------  -->
 
 <h3>Contacts and information</h3>
 
@@ -69,3 +75,25 @@ subtitle: page.position
   {% endif %}
   
 </ul>
+
+<!-- --------------------- PUBLICATIONS ---------------------  -->
+
+<h3>Publications</h3>
+
+<div class="post-list">
+    {% for publication in site.publications %}
+        {% if publication.authors contains page.name %}
+          <div class="tag-entry">
+              <a href="{{ publication.url | relative_url }}">{{- publication.title | strip_html -}}</a>
+              <div class="entry-date">        
+                {% if publication.authors %}
+                  <span><strong>{{ publication.authors }}</strong></span>
+                {% endif %}
+                {% if publication.journal %}
+                  <p class="post-meta" style="margin-top: 0;">{{ publication.journal }}</p>
+                {% endif %}
+              </div>
+          </div>
+      {% endif %}
+    {%- endfor -%}
+</div>
