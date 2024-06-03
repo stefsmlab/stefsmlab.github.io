@@ -9,5 +9,5 @@ cover-img: https://stefsmlab.github.io/assets/img/publications/2022-05-31-Bias-i
 article_link: https://arxiv.org/abs/2205.15935
 journal:
 abstract_length_home: 100
-tags: [fairness]
+tags: [fairness,data imbalance]
 ---
