@@ -1,5 +1,5 @@
 ---
 layout: news
 when: Jun 2024
-what: I am delighted that our paper on [cognitive fatigue](https://escholarship.org/uc/item/8pn5q3kx) has been accepted to [CogSci 2024](https://cognitivesciencesociety.org/cogsci-2024/) as an oral contribution!
+what: I am delighted that our paper on <a href="https://escholarship.org/uc/item/8pn5q3kx" target="_blank">cognitive fatigue</a> has been accepted to <a href="https://cognitivesciencesociety.org/cogsci-2024/" target="_blank">CogSci 2024</a> as an oral contribution!
 ---
