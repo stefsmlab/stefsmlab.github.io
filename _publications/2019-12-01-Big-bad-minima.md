@@ -7,7 +7,7 @@ abstract: Gradient-based algorithms are effective for many machine learning task
 thumbnail-img:
 cover-img:
 article_link: https://proceedings.neurips.cc/paper/2019/hash/fbad540b2f3b5638a9be9aa6a4d8e450-Abstract.html
-journal: NeurIPS 2019
+journal: NeurIPS 2019 (Spotlight)
 abstract_length_home: 100
 tags: [optimisation,landscape]
 ---
