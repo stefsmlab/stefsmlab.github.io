@@ -7,7 +7,7 @@ abstract: Diverse studies in systems neuroscience begin with extended periods of
 thumbnail-img: https://stefsmlab.github.io/assets/img/publications/2024-02-01-Why-shaping-thumbnail.png
 cover-img:
 article_link: https://proceedings.mlr.press/v235/lee24r.html
-journal: Accepted to ICML 2024
+journal: ICML 2024
 abstract_length_home: 100
 tags: [compositionality, curriculum learning]
 ---
