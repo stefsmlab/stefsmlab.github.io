@@ -7,7 +7,7 @@ abstract: Machine learning systems often acquire biases by leveraging undesired 
 thumbnail-img: https://stefsmlab.github.io/assets/img/publications/2024-05-28-bias-in-motion-thumbnail.png
 cover-img: https://stefsmlab.github.io/assets/img/publications/2024-05-28-bias-in-motion-cover.png
 article_link: https://arxiv.org/abs/2405.18296
-journal:
+journal: Accepted to NeurIPS 2024
 abstract_length_home: 100
 tags: [fairness,spurious correlations,data imbalance]
 ---
