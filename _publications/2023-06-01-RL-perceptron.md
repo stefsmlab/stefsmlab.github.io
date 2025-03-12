@@ -7,7 +7,7 @@ abstract: Reinforcement learning (RL) algorithms have proven transformative in a
 thumbnail-img: https://stefsmlab.github.io/assets/img/publications/2023-06-01-RL-perceptron-thumbnail.png
 cover-img:
 article_link: https://arxiv.org/abs/2306.10404
-journal:
+journal: Accepted to PRX
 abstract_length_home: 100
 tags: [reinforcement learning, curriculum learning]
 ---
