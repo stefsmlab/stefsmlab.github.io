@@ -7,7 +7,7 @@ abstract: Artificial neural networks often struggle with catastrophic forgetting
 thumbnail-img: https://stefsmlab.github.io/assets/img/publications/2024-09-26-Optimal-control-thumbnail.png
 cover-img:
 article_link: https://arxiv.org/abs/2409.18061
-journal:
+journal: Accepted to ICLR 2025
 abstract_length_home: 100
 tags: [optimal control,continual learning]
 ---
